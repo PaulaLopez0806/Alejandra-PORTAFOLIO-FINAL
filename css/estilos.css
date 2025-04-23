@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.bg-primary {
+    background-color: #9d5bc4 !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.bg-black {
+    background-color: #ffb3b3 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
